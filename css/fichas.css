@@ -1,0 +1,77 @@
+/* ===========================================
+   ESTILOS DE FICHAS Y CAJAS MEDIEVALES
+=========================================== */
+
+.hoja-pergamino {
+    background: #efe5c9 linear-gradient(135deg, #d9ca9c 0%, #ece0c3 50%, #cca876 100%);
+    padding: 20px;
+    box-sizing: border-box;
+    height: 100%;
+    overflow-y: auto;
+    font-family: 'MedievalSharp', cursive;
+    color: #1a0b04;
+    border: 2px solid #b8860b;
+}
+
+.encabezado-ficha {
+    text-align: center;
+    border-bottom: 2px dashed #8b0000;
+    margin-bottom: 15px;
+    padding-bottom: 10px;
+}
+
+.titulo-bestia {
+    font-family: 'Cinzel Decorative', serif;
+    font-size: 1.8rem;
+    color: #4a0e0e;
+    margin: 0;
+}
+
+.subtitulo-bestia {
+    font-size: 0.95rem;
+    color: #6b2d2d;
+    font-style: italic;
+}
+
+.contenedor-ilustracion {
+    text-align: center;
+    margin: 15px 0;
+}
+
+.contenedor-ilustracion img {
+    max-width: 80%;
+    max-height: 220px;
+    object-fit: contain;
+    filter: drop-shadow(0px 5px 5px rgba(0,0,0,0.4));
+}
+
+/* GRILLA DE CAJITAS RESPONSIBA */
+.grid-cajas {
+    display: grid;
+    grid-template-columns: repeat(auto-fit, minmax(220px, 1fr));
+    gap: 12px;
+    margin-top: 15px;
+}
+
+.caja-medieval {
+    background: rgba(255, 255, 255, 0.35);
+    border: 1px solid #8b5a2b;
+    border-radius: 4px;
+    padding: 10px;
+    box-shadow: inset 0 0 5px rgba(0,0,0,0.1);
+}
+
+.caja-medieval h4 {
+    margin: 0 0 5px 0;
+    font-family: 'Cinzel Decorative', serif;
+    font-size: 0.9rem;
+    color: #8b0000;
+    border-bottom: 1px solid #8b5a2b;
+    padding-bottom: 3px;
+}
+
+.caja-medieval p {
+    margin: 0;
+    font-size: 0.85rem;
+    line-height: 1.35;
+}

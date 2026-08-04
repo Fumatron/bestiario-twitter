@@ -1,0 +1,58 @@
+[
+  {
+    "id": "el-falacias",
+    "nombre": "El Falacias",
+    "clase": "Kóbolt",
+    "alineamiento": "Caótico Maligno",
+    "imagen": "img/criaturas/el_falacias.png",
+    "origen": "Agujeros y cuevas. Surgen y se reproducen en madrigueras digitales.",
+    "descripcion": "Pequeñas criaturas de aspecto miserable. Su piel escamosa está cubierta de granos y suciedad. Repiten hechizos que no entienden convencidos de que refutan cualquier argumento.",
+    "habitat": "Cuevas de hilos ignorados, foros olvidados y rincones nocturnos de Twitter.",
+    "tamano": "Pequeño (entre 60 y 90 cm).",
+    "identificacion": "Se les reconoce por su voz chillona, su uso compulsivo de palabras que no comprenden y su certificado de Anís del Mono colgado del cuello.",
+    "comportamiento": "Repite órdenes sin entender su significado. No discute, no interpreta, no comprende. Solo ejecuta.",
+    "hechizos": [
+      {
+        "nombre": "Falacia de Autoridad (Ad Vericundiam)",
+        "tipo": "Acción verbal",
+        "efecto": "Invoca el nombre de una falacia con voz chillona. Si el objetivo carece de paciencia, debe superar una TS de Sabiduría CD 8 o sufrir Irritación leve."
+      }
+    ],
+    "habilidadRacial": {
+      "nombre": "Bloqueador Cobarde",
+      "efecto": "Cuando es refutado o ignorado, puede huir tras un muro de bloqueos."
+    },
+    "botin": {
+      "item": "Pelos de bigote de prepúber (Común)",
+      "valor": "0 monedas de oro"
+    }
+  },
+  {
+    "id": "el-troll",
+    "nombre": "El Troll",
+    "clase": "Troll",
+    "alineamiento": "Caótico Maligno",
+    "imagen": "img/criaturas/el_troll.png",
+    "origen": "Cloacas digitales y sótanos obscuros del internet ancestral.",
+    "descripcion": "Criatura miserable cuyo único placer es provocar, insultar y sembrar la discordia sin razón ni recompensa.",
+    "habitat": "Redes sociales, foros, comentarios de noticias y hilos virales.",
+    "tamano": "Grande y seboso.",
+    "identificacion": "Ojos pegados a la pantalla, teclados grasientos y sacos de snacks ultraprocesados alrededor.",
+    "comportamiento": "Se alimenta de la atención negativa que genera. Cuanto más daño hace, más fuerte se siente.",
+    "hechizos": [
+      {
+        "nombre": "Provocación Gratuita",
+        "tipo": "Acción continua",
+        "efecto": "Lanza insultos y desvíos de tema para agotar la paciencia del objetivo."
+      }
+    ],
+    "habilidadRacial": {
+      "nombre": "Multicuenta",
+      "efecto": "Si una cuenta es bloqueada, genera dos títeres adicionales para continuar el acoso."
+    },
+    "botin": {
+      "item": "Doritos de Rencor y Lágrimas ajenas",
+      "valor": "Incalculable para él, 0 para los demás"
+    }
+  }
+]
